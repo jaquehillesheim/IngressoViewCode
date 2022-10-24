@@ -13,7 +13,7 @@ protocol PickerViewAnoSelecionado {
 
 class PickerViewAno: NSObject, UIPickerViewDelegate, UIPickerViewDataSource {
     
-    let listaDeAnos = ["2017", "2018", "2019", "2020", "2021", "2022"]
+    let listaDeAnos = ["2017", "2018", "2019", "2020", "2021", "2022", "2023", "2026"]
     
     var delegate: PickerViewAnoSelecionado?
         

@@ -44,9 +44,12 @@ class ValidaFormulario: NSObject {
         return emailTest.evaluate(with: email)
     }
     
-    func numeroDoCartao(cartao:String) -> Bool {
-        if CreditCardValidator(cartao).isValid { return false }
-        return true
+    func isCardNumberValid(cartao:String) -> Bool {
+        if CreditCardValidator(cartao).isValid {
+            return true
+        } else {
+            return false
+        }
     }
     
     func exibeNotificacaoDePreenchimentoDosTextFields() -> UIAlertController {

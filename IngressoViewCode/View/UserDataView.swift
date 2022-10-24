@@ -47,6 +47,7 @@ class UserDataView: UIView {
         textField.addConstraint(textField.heightAnchor.constraint(equalToConstant: 30))
         textField.layer.borderWidth = 1
         textField.layer.cornerRadius = 4
+        textField.autocapitalizationType = .none
         return textField
     }()
     
@@ -64,6 +65,7 @@ class UserDataView: UIView {
         textField.addConstraint(textField.heightAnchor.constraint(equalToConstant: 30))
         textField.layer.borderWidth = 1
         textField.layer.cornerRadius = 4
+        textField.autocapitalizationType = .none
         return textField
     }()
     

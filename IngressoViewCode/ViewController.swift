@@ -160,12 +160,12 @@ class ViewController: UIViewController, PickerViewMesSelecionado, PickerViewAnoS
     @objc func botaoComprar() {
         let cpfValido = ValidaFormulario().verificaCpf(cpf: userDataView.cpfTextField.text!)
         let emailValido = ValidaFormulario().verifivaEmail(email: userDataView.eMailTextField.text!)
-        let numeroDoCartao = ValidaFormulario().numeroDoCartao(cartao: cardDataView.cardNumberTextField.text!)
+        let isCardNumberValid = ValidaFormulario().isCardNumberValid(cartao: cardDataView.cardNumberTextField.text!)
         
         
         let textFields = [userDataView.nameTextField, userDataView.eMailTextField, userDataView.cpfTextField, userDataView.cepTextField, userDataView.districtTextField, userDataView.addTextField, cardDataView.cardNumberTextField, cardDataView.monthTextField, cardDataView.yearTextField, cardDataView.digits3TextField, cardDataView.numberOfInstallmentsTextField]
         let textFieldsEstaoValidos = ValidaFormulario().verificaTextFieldsPreenchidos(textFields: textFields)
-        if  textFieldsEstaoValidos && cpfValido && emailValido{
+        if  textFieldsEstaoValidos && cpfValido && emailValido && isCardNumberValid {
             present(ValidaFormulario().exibeNotificacaoDeCompraRealizada(), animated: true, completion: nil)
         }
         else {
@@ -181,6 +181,7 @@ class ViewController: UIViewController, PickerViewMesSelecionado, PickerViewAnoS
             print(error)
         }
     }
+    
     @objc func textFieldCodigoDeSeguranca() {
         guard let cvvString = cardDataView.digits3TextField.text else { return }
        
@@ -190,9 +191,8 @@ class ViewController: UIViewController, PickerViewMesSelecionado, PickerViewAnoS
         } else {
             cardDataView.digits3TextField.text = cvvString
         }
-        
     }
-
+    
     // MARK: PickerViwDelegate
     
     func mesSelecionado(mes: String) {
