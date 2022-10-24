@@ -14,7 +14,7 @@ class CardDataView: UIView {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
         label.text = "2. Cartão"
-        label.font = UIFont(name: "Arial Negrito", size: 17)
+        label.font = .boldSystemFont(ofSize: 17)
         label.textColor = UIColor(red: 57/255, green: 62/255, blue: 70/255, alpha: 1)
         return label
     }()
@@ -33,8 +33,10 @@ class CardDataView: UIView {
         return card
     }()
     
-    private lazy var cardNumberTextField: UITextField = {
+    private(set) lazy var cardNumberTextField: UITextField = {
         let textField = UITextField()
+        textField.backgroundColor = .white
+        textField.addConstraint(textField.heightAnchor.constraint(equalToConstant: 30))
         textField.translatesAutoresizingMaskIntoConstraints = false
         textField.placeholder = "Número de Cartão"
         textField.layer.borderWidth = 1
@@ -47,7 +49,6 @@ class CardDataView: UIView {
         horizontal.translatesAutoresizingMaskIntoConstraints = false
         horizontal.axis = .horizontal
         horizontal.distribution = .fillEqually
-        horizontal.backgroundColor = .green
         return horizontal
     }()
     
@@ -63,7 +64,7 @@ class CardDataView: UIView {
     private lazy var dueDateLabel: UILabel = {
         let label = UILabel()
         label.text = "Vencimento"
-        label.font = UIFont(name: "Avenir Heavy", size: 14)
+        label.font = UIFont(name: "Avenir Heavy", size: 15)
         label.textColor = UIColor(red: 57/255, green: 62/255, blue: 70/255, alpha: 1)
         return label
     }()
@@ -73,21 +74,24 @@ class CardDataView: UIView {
         stackView.translatesAutoresizingMaskIntoConstraints = false
         stackView.axis = .horizontal
         stackView.distribution = .fillEqually
-        stackView.backgroundColor = .green
         return stackView
     }()
     
-    private lazy var monthTextField: UITextField = {
+    private(set) lazy var monthTextField: UITextField = {
         let textField = UITextField()
         textField.placeholder = "MM"
+        textField.backgroundColor = .white
+        textField.addConstraint(textField.heightAnchor.constraint(equalToConstant: 30))
         textField.layer.borderWidth = 1
         textField.layer.cornerRadius = 4
         return textField
     }()
     
-    private lazy var yearTextField: UITextField = {
+    private(set) lazy var yearTextField: UITextField = {
         let textField = UITextField()
         textField.placeholder = "AA"
+        textField.backgroundColor = .white
+        textField.addConstraint(textField.heightAnchor.constraint(equalToConstant: 30))
         textField.layer.borderWidth = 1
         textField.layer.cornerRadius = 4
         return textField
@@ -104,23 +108,28 @@ class CardDataView: UIView {
     private lazy var securityCodeLabel: UILabel = {
         let label = UILabel()
         label.text = "Cod. Seg."
-        label.font = UIFont(name: "Avenir Heavy", size: 14)
+        label.font = UIFont(name: "Avenir Heavy", size: 15)
         label.textColor = UIColor(red: 57/255, green: 62/255, blue: 70/255, alpha: 1)
         return label
     }()
     
-    private lazy var digits3TextField: UITextField = {
+    private(set) lazy var digits3TextField: UITextField = {
         let textField = UITextField()
         textField.placeholder = "3 Dígitos"
+        textField.backgroundColor = .white
+        textField.addConstraint(textField.heightAnchor.constraint(equalToConstant: 30))
         textField.layer.borderWidth = 1
         textField.layer.cornerRadius = 4
+        textField.isSecureTextEntry = true
         return textField
     }()
     
-    private lazy var numberOfInstallmentsTextField: UITextField = {
+    private(set) lazy var numberOfInstallmentsTextField: UITextField = {
         let textField = UITextField()
         textField.translatesAutoresizingMaskIntoConstraints = false
         textField.placeholder = "Número de parcelas"
+        textField.backgroundColor = .white
+        textField.addConstraint(textField.heightAnchor.constraint(equalToConstant: 30))
         textField.layer.borderWidth = 1
         textField.layer.cornerRadius = 4
         return textField
@@ -159,7 +168,7 @@ class CardDataView: UIView {
     func setConstraint() {
         
         NSLayoutConstraint.activate([
-            cardLabel.topAnchor.constraint(equalTo: bottomAnchor),
+            cardLabel.topAnchor.constraint(equalTo: topAnchor),
             cardLabel.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 16),
             cardLabel.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -16),
             
@@ -168,12 +177,12 @@ class CardDataView: UIView {
             divider3View.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 16),
             divider3View.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -16),
             
-            cardImageView.topAnchor.constraint(equalTo: divider3View.bottomAnchor, constant: 10),
+            cardImageView.topAnchor.constraint(equalTo: divider3View.bottomAnchor, constant: 5),
             cardImageView.heightAnchor.constraint(equalToConstant: 45),
             cardImageView.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 16),
             cardImageView.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -16),
             
-            cardNumberTextField.topAnchor.constraint(equalTo: cardImageView.bottomAnchor),
+            cardNumberTextField.topAnchor.constraint(equalTo: cardImageView.bottomAnchor, constant: 5),
             cardNumberTextField.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 16),
             cardNumberTextField.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -16),
 
@@ -183,7 +192,10 @@ class CardDataView: UIView {
             
             numberOfInstallmentsTextField.topAnchor.constraint(equalTo: cardDataStackView.bottomAnchor),
             numberOfInstallmentsTextField.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 16),
-            numberOfInstallmentsTextField.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -16)
+            numberOfInstallmentsTextField.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -16),
+            numberOfInstallmentsTextField.bottomAnchor.constraint(equalTo: bottomAnchor)
         ])
     }
+    
+    
 }

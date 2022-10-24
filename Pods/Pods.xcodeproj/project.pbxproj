@@ -1,0 +1,1253 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0072328DC1F6E9527DD89ED176FF08A4 /* SwiftCurrency-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C55C43CBF665F640E0107F41D8862E25 /* SwiftCurrency-dummy.m */; };
+		119B37D7E7D3A59C6685FC0EFEE881CE /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259E5BB27236583BD2FB035257E164CC /* TaskDelegate.swift */; };
+		11BAFB455869ABA6C32EEB2BA441304A /* CreditCardValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BF406ECF3803D1655092F506DAAD37 /* CreditCardValidator.swift */; };
+		169E09D842A728D47C5CC6615F46471A /* AnyCurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17BE0DEC3957ABC3DD423140BCEA867 /* AnyCurrency.swift */; };
+		2119BBBDD76C9B182007C9E8D3BD8DDA /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709E1149A2FB4BD466A5F9EB338E3CA7 /* Timeline.swift */; };
+		3030C41FF0B3C97D44EACF012F8E4E6A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		3DE8AA12C52787A0BA570717BB27AAB0 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9ECC97256314E2B40430E4CAE588A60 /* ServerTrustPolicy.swift */; };
+		3E9464AA785AECB7AD4E7F527D20260F /* CurrencyMint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F31726C00CDE7D2CDDBCF87BE32B4D /* CurrencyMint.swift */; };
+		3F00ACB415CBC76632509BE40C3EE17B /* CurrencyMint+ISOCurrencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC13677709A76DEBC2AB40D6FBDF92AE /* CurrencyMint+ISOCurrencies.swift */; };
+		3F52F871411B4BDD1962B7587740511E /* SwiftCurrency-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A064DF6A7CB201483BCDB3E5F9A609C0 /* SwiftCurrency-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43C3C17BFDFD71F45C5A7AFB0C0BEF45 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6C33DD8D1B4DD36425FDD3D28552C9 /* ResponseSerialization.swift */; };
+		442F716DC7A5E28E2D36DB8D69BDDEF4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		4C301CCA81AAFB4453B6B827F846E0AC /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14356993C82832A0FC88EBB337C99039 /* Validation.swift */; };
+		4E171E9D14CE03CD2FAAD088E64DDF3C /* CurrencyProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F3F34272C83D12D2A436775E149FB8 /* CurrencyProtocol.swift */; };
+		4EE7B9D5BB61C032F47150D9564A5069 /* CurrencyMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A7958FEAF879F7D47B4590F461858E /* CurrencyMetadata.swift */; };
+		51918F49D02E864E719ADE0864CAACF9 /* AnyCurrency+Sequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A717FDC568CA26BB442D9B7A9BA21D2 /* AnyCurrency+Sequence.swift */; };
+		537D7452E6C8C82D9C1908EA29706E35 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD48065F1336FBE3760EDBB128C0C23 /* Notifications.swift */; };
+		5CECD168465CF59B489253695D3FB51F /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC1A43492F2E00C08B1F479DE893A7D /* NetworkReachabilityManager.swift */; };
+		6D0464BDCD6CE52FE613303A5558DE30 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		6DF154F51210D4C446AA021F2DBA34A4 /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA9C8B56C61A53FD8C35916F2DFE440 /* MultipartFormData.swift */; };
+		70EA6F068498CEC1B273D6BB1E74EB4E /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3394FF412BE0621C0F74295581124108 /* Alamofire.swift */; };
+		8023EECE8437F0311A065A9C2F420E2E /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA5DA94F0824E4BCCC20E41013D00DE /* SessionManager.swift */; };
+		8248F7E24D18CF36CA19A3E93CD8DAD2 /* CPF-CNPJ-Validator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9794B5AE2AAF43ACFB22A57EAC24B1FC /* CPF-CNPJ-Validator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85379CCF081FC9C36F082E71D2DF4D2F /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0FF373AEC20F676FCFCE586F431C59 /* SessionDelegate.swift */; };
+		899D203800E8456B0178536000EA9C54 /* CPF-CNPJ-Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8A6AC2BECC30AB0DD8DC8A96633C0B /* CPF-CNPJ-Validator.swift */; };
+		90E42B43904F2F22CA3A8BBD0155D9A2 /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4404AFF9E705AA14B0FC28FEC2F108F /* AFError.swift */; };
+		9146510540C8DAF109CC4BCCB0CA74A9 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BE431CE439BB7C18D49EA5DE0EBF51F /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		945301A00DA795FA5B3406B742277F66 /* Decimal.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60FABAB60C9DEBEBD1B10A885B5AF07 /* Decimal.swift */; };
+		9BCBBFE03318F5DD172F9E1F3100F67B /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB26BDEC36610E81F4D5A3890CC4C567 /* Response.swift */; };
+		A16D918314A8CEC8AAE75AC283872FE0 /* CreditCardValidator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B125F518FE782C04FF77FB81FDA5C348 /* CreditCardValidator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB8DD7D2E4495A82A26726163729553A /* CPF-CNPJ-Validator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB1A3D082BFE5CA0C6B400EDEDB43DE /* CPF-CNPJ-Validator-dummy.m */; };
+		BD42F7844C9434C745F1DFF81EAF2B36 /* ISOCurrencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA5DAAC054CBCD78875AFBCEE158FA9 /* ISOCurrencies.swift */; };
+		BDF3BED80DCABCDA64FA0C48367DC83F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C27C72B2D755F3A7B2D97089CA75146F /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C44545FA60629026F145F8CC778FCA3D /* Alamofire-dummy.m */; };
+		C68362F6E7690DF24F30008067FBD593 /* Pods-IngressoViewCode-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 550722738E34DB357A6C1AC3C40B6C4D /* Pods-IngressoViewCode-dummy.m */; };
+		D143F831DE085F0E0B1D67EDDAD9F445 /* Pods-IngressoViewCode-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EF948F42DCFA1F7AA84A698ECFF44A6F /* Pods-IngressoViewCode-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D3ABE62A47EFFEF1926872DFFD9A99C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		D46CB5AF7BE345C5D27ABF9DCF692881 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42573F10CBD84EDB4A1C2F81CC0D152C /* Result.swift */; };
+		D593E5BEB4221FF272DBF69E51945319 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FA8FF4C96117E35C483701D8946E84 /* Request.swift */; };
+		DCAB43E1C9C49733CD1DAE6618E4F68C /* AnyCurrency+Algorithms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989E0AA5C8AB2B1A4EA140A69CB1DC70 /* AnyCurrency+Algorithms.swift */; };
+		F5C92DC8E274C4FC541267A97575BC05 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CCEE5B12E3B95A10FDB2871A5536A84 /* ParameterEncoding.swift */; };
+		F721520819C427899B2A817F88E6D58C /* CreditCardValidator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C8B3B7CF05232C8A2921C1E27AB1A3 /* CreditCardValidator-dummy.m */; };
+		F93AEAF3659818E2308E0E5C70B66423 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6EC16104E5BB8E98F2E74C2AD0A31D /* DispatchQueue+Alamofire.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		39C97E77D1EEB69017A0941DB688517E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAAA1AD3A8A1B59AB91319EE40752C6D;
+			remoteInfo = Alamofire;
+		};
+		9A56A92086FD9C5EF44A4A985C91F091 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6BF4537D281B642FA0BE6D01C511544D;
+			remoteInfo = "CPF-CNPJ-Validator";
+		};
+		C6016231D02F5D9894FAED0D091519C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7DB0D359272C592968C8C33A6A32778E;
+			remoteInfo = SwiftCurrency;
+		};
+		F7465ED09E7B0C3C04A7F71EA04D551F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7ECDF71AF0A137721871DF219835B9B;
+			remoteInfo = CreditCardValidator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		021395F7F540F1CE58475599BC6C3644 /* SwiftCurrency-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftCurrency-prefix.pch"; sourceTree = "<group>"; };
+		063B0D121DC48C833070BA9651DB747E /* Alamofire-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Alamofire-Info.plist"; sourceTree = "<group>"; };
+		080B127FA5383BBDECE3D9B2ABE46607 /* CreditCardValidator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CreditCardValidator.debug.xcconfig; sourceTree = "<group>"; };
+		09BF406ECF3803D1655092F506DAAD37 /* CreditCardValidator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CreditCardValidator.swift; path = Sources/CreditCardValidator/CreditCardValidator.swift; sourceTree = "<group>"; };
+		12FA8FF4C96117E35C483701D8946E84 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		14356993C82832A0FC88EBB337C99039 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		1628B7AF9014C0E027A548C4B8055DCA /* Pods-IngressoViewCode */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-IngressoViewCode"; path = Pods_IngressoViewCode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		19183C311DFEF0BE7FCCC522E5E7066A /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		1A717FDC568CA26BB442D9B7A9BA21D2 /* AnyCurrency+Sequence.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "AnyCurrency+Sequence.swift"; path = "Sources/Currency/AnyCurrency+Sequence.swift"; sourceTree = "<group>"; };
+		1AB1A3D082BFE5CA0C6B400EDEDB43DE /* CPF-CNPJ-Validator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CPF-CNPJ-Validator-dummy.m"; sourceTree = "<group>"; };
+		202EC3C7DA6C527953E8DB3B4887D734 /* SwiftCurrency.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftCurrency.debug.xcconfig; sourceTree = "<group>"; };
+		259E5BB27236583BD2FB035257E164CC /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
+		26572A92658F6FC1D02CAA1E46DC06A2 /* CreditCardValidator */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CreditCardValidator; path = CreditCardValidator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E0FF373AEC20F676FCFCE586F431C59 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
+		326AF8013D08647537F46E3BEE8503BF /* CPF-CNPJ-Validator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "CPF-CNPJ-Validator.release.xcconfig"; sourceTree = "<group>"; };
+		3394FF412BE0621C0F74295581124108 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		37E405B13309DCAB4F9472D20878EF6E /* Pods-IngressoViewCode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IngressoViewCode.debug.xcconfig"; sourceTree = "<group>"; };
+		38CB19F97D53205901CCB8EF97948FD6 /* CPF-CNPJ-Validator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CPF-CNPJ-Validator-prefix.pch"; sourceTree = "<group>"; };
+		410B0CFAA8CF537F551C0330BAE211D8 /* Pods-IngressoViewCode-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IngressoViewCode-Info.plist"; sourceTree = "<group>"; };
+		42573F10CBD84EDB4A1C2F81CC0D152C /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
+		43A7958FEAF879F7D47B4590F461858E /* CurrencyMetadata.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CurrencyMetadata.swift; path = Sources/Currency/CurrencyMetadata.swift; sourceTree = "<group>"; };
+		478225EF1FDF597F6F874ECDA218B072 /* CPF-CNPJ-Validator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "CPF-CNPJ-Validator.debug.xcconfig"; sourceTree = "<group>"; };
+		4AA9C8B56C61A53FD8C35916F2DFE440 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
+		4B37B8575FBB649B310996E047AAAE37 /* SwiftCurrency.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftCurrency.modulemap; sourceTree = "<group>"; };
+		4C4103AC623F7C3483174D6839898580 /* CreditCardValidator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CreditCardValidator.release.xcconfig; sourceTree = "<group>"; };
+		550722738E34DB357A6C1AC3C40B6C4D /* Pods-IngressoViewCode-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-IngressoViewCode-dummy.m"; sourceTree = "<group>"; };
+		554609722CFE27C402BC39EF700A38A4 /* Pods-IngressoViewCode-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IngressoViewCode-acknowledgements.plist"; sourceTree = "<group>"; };
+		5D7648AD33BDFEECD33F3A7ACA500B69 /* CreditCardValidator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CreditCardValidator.modulemap; sourceTree = "<group>"; };
+		5D797E9A5C5782CE845840781FA1CC81 /* Alamofire */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BE431CE439BB7C18D49EA5DE0EBF51F /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		6F53437FD3F30DA5AAAFCA6B6CBCA50B /* CPF-CNPJ-Validator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CPF-CNPJ-Validator-Info.plist"; sourceTree = "<group>"; };
+		709E1149A2FB4BD466A5F9EB338E3CA7 /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7316D3EF6A159159CBEE4C5D1367C794 /* SwiftCurrency.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftCurrency.release.xcconfig; sourceTree = "<group>"; };
+		772816261A8BA47CF8AE3D6CAADEF881 /* CreditCardValidator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CreditCardValidator-prefix.pch"; sourceTree = "<group>"; };
+		78F3F34272C83D12D2A436775E149FB8 /* CurrencyProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CurrencyProtocol.swift; path = Sources/Currency/CurrencyProtocol.swift; sourceTree = "<group>"; };
+		7AEDE18147BF874140AF75C98CFE777F /* Alamofire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.release.xcconfig; sourceTree = "<group>"; };
+		7E6EC16104E5BB8E98F2E74C2AD0A31D /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		85947E0A282395B64B7B79FA6AC1291E /* Pods-IngressoViewCode-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-IngressoViewCode-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8A9554928CD73FA2727B2C026A2E48F4 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		8BA5DA94F0824E4BCCC20E41013D00DE /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
+		8C51DA6CEB68A96EAA8224204148D55E /* CreditCardValidator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CreditCardValidator-Info.plist"; sourceTree = "<group>"; };
+		8CCEE5B12E3B95A10FDB2871A5536A84 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+		9064B7FBCD1B9253FDF9ACB189B46D2B /* CPF-CNPJ-Validator */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "CPF-CNPJ-Validator"; path = CPF_CNPJ_Validator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		94F31726C00CDE7D2CDDBCF87BE32B4D /* CurrencyMint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CurrencyMint.swift; path = Sources/Currency/CurrencyMint.swift; sourceTree = "<group>"; };
+		9794B5AE2AAF43ACFB22A57EAC24B1FC /* CPF-CNPJ-Validator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CPF-CNPJ-Validator-umbrella.h"; sourceTree = "<group>"; };
+		989E0AA5C8AB2B1A4EA140A69CB1DC70 /* AnyCurrency+Algorithms.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "AnyCurrency+Algorithms.swift"; path = "Sources/Currency/AnyCurrency+Algorithms.swift"; sourceTree = "<group>"; };
+		9BA5DAAC054CBCD78875AFBCEE158FA9 /* ISOCurrencies.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ISOCurrencies.swift; path = Sources/Currency/ISOCurrencies.swift; sourceTree = "<group>"; };
+		9CC1A43492F2E00C08B1F479DE893A7D /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A064DF6A7CB201483BCDB3E5F9A609C0 /* SwiftCurrency-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftCurrency-umbrella.h"; sourceTree = "<group>"; };
+		A6C8B3B7CF05232C8A2921C1E27AB1A3 /* CreditCardValidator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CreditCardValidator-dummy.m"; sourceTree = "<group>"; };
+		AB26BDEC36610E81F4D5A3890CC4C567 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
+		B125F518FE782C04FF77FB81FDA5C348 /* CreditCardValidator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CreditCardValidator-umbrella.h"; sourceTree = "<group>"; };
+		B280A4E6BE31945E60059371DA297FEF /* CPF-CNPJ-Validator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "CPF-CNPJ-Validator.modulemap"; sourceTree = "<group>"; };
+		B9ECC97256314E2B40430E4CAE588A60 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
+		C44545FA60629026F145F8CC778FCA3D /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
+		C55C43CBF665F640E0107F41D8862E25 /* SwiftCurrency-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftCurrency-dummy.m"; sourceTree = "<group>"; };
+		CA8A6AC2BECC30AB0DD8DC8A96633C0B /* CPF-CNPJ-Validator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CPF-CNPJ-Validator.swift"; path = "Source/CPF-CNPJ-Validator.swift"; sourceTree = "<group>"; };
+		CCCDF263FC7BB214C31F51B0C4A940EB /* Alamofire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.debug.xcconfig; sourceTree = "<group>"; };
+		DC13677709A76DEBC2AB40D6FBDF92AE /* CurrencyMint+ISOCurrencies.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CurrencyMint+ISOCurrencies.swift"; path = "Sources/Currency/CurrencyMint+ISOCurrencies.swift"; sourceTree = "<group>"; };
+		E17BE0DEC3957ABC3DD423140BCEA867 /* AnyCurrency.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnyCurrency.swift; path = Sources/Currency/AnyCurrency.swift; sourceTree = "<group>"; };
+		E4404AFF9E705AA14B0FC28FEC2F108F /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
+		EBD48065F1336FBE3760EDBB128C0C23 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
+		ED6C33DD8D1B4DD36425FDD3D28552C9 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		EDFCA2B9E2007A78F20EC91391F64AC7 /* Pods-IngressoViewCode-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-IngressoViewCode-frameworks.sh"; sourceTree = "<group>"; };
+		EF948F42DCFA1F7AA84A698ECFF44A6F /* Pods-IngressoViewCode-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-IngressoViewCode-umbrella.h"; sourceTree = "<group>"; };
+		F1C36BAB706B3E4E51610400FE5FD81D /* Pods-IngressoViewCode.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-IngressoViewCode.modulemap"; sourceTree = "<group>"; };
+		F3CE186AA1910A2C721C48BEF848340A /* SwiftCurrency-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftCurrency-Info.plist"; sourceTree = "<group>"; };
+		F413A0CD221CC2A8672F20081F9F5395 /* SwiftCurrency */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftCurrency; path = SwiftCurrency.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F60FABAB60C9DEBEBD1B10A885B5AF07 /* Decimal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Decimal.swift; path = Sources/Currency/Extensions/Decimal.swift; sourceTree = "<group>"; };
+		FDFDD629FB6F7D40516DD8D6E65F5318 /* Pods-IngressoViewCode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IngressoViewCode.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1FDEBC1279186C4DE344C5D2CCE81B3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D0464BDCD6CE52FE613303A5558DE30 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B6FE9B1AA5E011CC90FD2218C032A29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3030C41FF0B3C97D44EACF012F8E4E6A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9D00DF7969A790F3EAE89D6D36EE295 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				442F716DC7A5E28E2D36DB8D69BDDEF4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B328B3FBF6E16C4B4335E753EE39CEC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDF3BED80DCABCDA64FA0C48367DC83F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C958D1727FB3403844D415746A6D0471 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3ABE62A47EFFEF1926872DFFD9A99C1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04F609595C723836145E02C4ED78A924 /* CPF-CNPJ-Validator */ = {
+			isa = PBXGroup;
+			children = (
+				CA8A6AC2BECC30AB0DD8DC8A96633C0B /* CPF-CNPJ-Validator.swift */,
+				B721CBE50669553CD2CDC9C5C525A03B /* Support Files */,
+			);
+			name = "CPF-CNPJ-Validator";
+			path = "CPF-CNPJ-Validator";
+			sourceTree = "<group>";
+		};
+		09E3207C5B47822F61130C53491949DC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4B37B8575FBB649B310996E047AAAE37 /* SwiftCurrency.modulemap */,
+				C55C43CBF665F640E0107F41D8862E25 /* SwiftCurrency-dummy.m */,
+				F3CE186AA1910A2C721C48BEF848340A /* SwiftCurrency-Info.plist */,
+				021395F7F540F1CE58475599BC6C3644 /* SwiftCurrency-prefix.pch */,
+				A064DF6A7CB201483BCDB3E5F9A609C0 /* SwiftCurrency-umbrella.h */,
+				202EC3C7DA6C527953E8DB3B4887D734 /* SwiftCurrency.debug.xcconfig */,
+				7316D3EF6A159159CBEE4C5D1367C794 /* SwiftCurrency.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftCurrency";
+			sourceTree = "<group>";
+		};
+		3BEBE7704CF811A0076D15C5E4ACE151 /* Pods-IngressoViewCode */ = {
+			isa = PBXGroup;
+			children = (
+				F1C36BAB706B3E4E51610400FE5FD81D /* Pods-IngressoViewCode.modulemap */,
+				85947E0A282395B64B7B79FA6AC1291E /* Pods-IngressoViewCode-acknowledgements.markdown */,
+				554609722CFE27C402BC39EF700A38A4 /* Pods-IngressoViewCode-acknowledgements.plist */,
+				550722738E34DB357A6C1AC3C40B6C4D /* Pods-IngressoViewCode-dummy.m */,
+				EDFCA2B9E2007A78F20EC91391F64AC7 /* Pods-IngressoViewCode-frameworks.sh */,
+				410B0CFAA8CF537F551C0330BAE211D8 /* Pods-IngressoViewCode-Info.plist */,
+				EF948F42DCFA1F7AA84A698ECFF44A6F /* Pods-IngressoViewCode-umbrella.h */,
+				37E405B13309DCAB4F9472D20878EF6E /* Pods-IngressoViewCode.debug.xcconfig */,
+				FDFDD629FB6F7D40516DD8D6E65F5318 /* Pods-IngressoViewCode.release.xcconfig */,
+			);
+			name = "Pods-IngressoViewCode";
+			path = "Target Support Files/Pods-IngressoViewCode";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5A3909137FD7234914C5B8AEFCD2F74D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3BEBE7704CF811A0076D15C5E4ACE151 /* Pods-IngressoViewCode */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		64DD3136151375196F2F802E08A12CDA /* SwiftCurrency */ = {
+			isa = PBXGroup;
+			children = (
+				E17BE0DEC3957ABC3DD423140BCEA867 /* AnyCurrency.swift */,
+				989E0AA5C8AB2B1A4EA140A69CB1DC70 /* AnyCurrency+Algorithms.swift */,
+				1A717FDC568CA26BB442D9B7A9BA21D2 /* AnyCurrency+Sequence.swift */,
+				43A7958FEAF879F7D47B4590F461858E /* CurrencyMetadata.swift */,
+				94F31726C00CDE7D2CDDBCF87BE32B4D /* CurrencyMint.swift */,
+				DC13677709A76DEBC2AB40D6FBDF92AE /* CurrencyMint+ISOCurrencies.swift */,
+				78F3F34272C83D12D2A436775E149FB8 /* CurrencyProtocol.swift */,
+				F60FABAB60C9DEBEBD1B10A885B5AF07 /* Decimal.swift */,
+				9BA5DAAC054CBCD78875AFBCEE158FA9 /* ISOCurrencies.swift */,
+				09E3207C5B47822F61130C53491949DC /* Support Files */,
+			);
+			name = SwiftCurrency;
+			path = SwiftCurrency;
+			sourceTree = "<group>";
+		};
+		9D56CE642E505BC3ECD5C9BEDBAEB72C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C8F44649E1B2272BBCA48015D6FC2494 /* Alamofire */,
+				04F609595C723836145E02C4ED78A924 /* CPF-CNPJ-Validator */,
+				E43BBCAB1C8616C08713A477390E2DF6 /* CreditCardValidator */,
+				64DD3136151375196F2F802E08A12CDA /* SwiftCurrency */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A15303482677377FCE3E39312111F374 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8A9554928CD73FA2727B2C026A2E48F4 /* Alamofire.modulemap */,
+				C44545FA60629026F145F8CC778FCA3D /* Alamofire-dummy.m */,
+				063B0D121DC48C833070BA9651DB747E /* Alamofire-Info.plist */,
+				19183C311DFEF0BE7FCCC522E5E7066A /* Alamofire-prefix.pch */,
+				6BE431CE439BB7C18D49EA5DE0EBF51F /* Alamofire-umbrella.h */,
+				CCCDF263FC7BB214C31F51B0C4A940EB /* Alamofire.debug.xcconfig */,
+				7AEDE18147BF874140AF75C98CFE777F /* Alamofire.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Alamofire";
+			sourceTree = "<group>";
+		};
+		B721CBE50669553CD2CDC9C5C525A03B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B280A4E6BE31945E60059371DA297FEF /* CPF-CNPJ-Validator.modulemap */,
+				1AB1A3D082BFE5CA0C6B400EDEDB43DE /* CPF-CNPJ-Validator-dummy.m */,
+				6F53437FD3F30DA5AAAFCA6B6CBCA50B /* CPF-CNPJ-Validator-Info.plist */,
+				38CB19F97D53205901CCB8EF97948FD6 /* CPF-CNPJ-Validator-prefix.pch */,
+				9794B5AE2AAF43ACFB22A57EAC24B1FC /* CPF-CNPJ-Validator-umbrella.h */,
+				478225EF1FDF597F6F874ECDA218B072 /* CPF-CNPJ-Validator.debug.xcconfig */,
+				326AF8013D08647537F46E3BEE8503BF /* CPF-CNPJ-Validator.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CPF-CNPJ-Validator";
+			sourceTree = "<group>";
+		};
+		C8F44649E1B2272BBCA48015D6FC2494 /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				E4404AFF9E705AA14B0FC28FEC2F108F /* AFError.swift */,
+				3394FF412BE0621C0F74295581124108 /* Alamofire.swift */,
+				7E6EC16104E5BB8E98F2E74C2AD0A31D /* DispatchQueue+Alamofire.swift */,
+				4AA9C8B56C61A53FD8C35916F2DFE440 /* MultipartFormData.swift */,
+				9CC1A43492F2E00C08B1F479DE893A7D /* NetworkReachabilityManager.swift */,
+				EBD48065F1336FBE3760EDBB128C0C23 /* Notifications.swift */,
+				8CCEE5B12E3B95A10FDB2871A5536A84 /* ParameterEncoding.swift */,
+				12FA8FF4C96117E35C483701D8946E84 /* Request.swift */,
+				AB26BDEC36610E81F4D5A3890CC4C567 /* Response.swift */,
+				ED6C33DD8D1B4DD36425FDD3D28552C9 /* ResponseSerialization.swift */,
+				42573F10CBD84EDB4A1C2F81CC0D152C /* Result.swift */,
+				B9ECC97256314E2B40430E4CAE588A60 /* ServerTrustPolicy.swift */,
+				2E0FF373AEC20F676FCFCE586F431C59 /* SessionDelegate.swift */,
+				8BA5DA94F0824E4BCCC20E41013D00DE /* SessionManager.swift */,
+				259E5BB27236583BD2FB035257E164CC /* TaskDelegate.swift */,
+				709E1149A2FB4BD466A5F9EB338E3CA7 /* Timeline.swift */,
+				14356993C82832A0FC88EBB337C99039 /* Validation.swift */,
+				A15303482677377FCE3E39312111F374 /* Support Files */,
+			);
+			name = Alamofire;
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				9D56CE642E505BC3ECD5C9BEDBAEB72C /* Pods */,
+				FEC5B5D8C819B13B476A065E1BBC58D1 /* Products */,
+				5A3909137FD7234914C5B8AEFCD2F74D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E43BBCAB1C8616C08713A477390E2DF6 /* CreditCardValidator */ = {
+			isa = PBXGroup;
+			children = (
+				09BF406ECF3803D1655092F506DAAD37 /* CreditCardValidator.swift */,
+				EE15EE9AA2978EAEF9C3F17ECFC108E3 /* Support Files */,
+			);
+			name = CreditCardValidator;
+			path = CreditCardValidator;
+			sourceTree = "<group>";
+		};
+		EE15EE9AA2978EAEF9C3F17ECFC108E3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5D7648AD33BDFEECD33F3A7ACA500B69 /* CreditCardValidator.modulemap */,
+				A6C8B3B7CF05232C8A2921C1E27AB1A3 /* CreditCardValidator-dummy.m */,
+				8C51DA6CEB68A96EAA8224204148D55E /* CreditCardValidator-Info.plist */,
+				772816261A8BA47CF8AE3D6CAADEF881 /* CreditCardValidator-prefix.pch */,
+				B125F518FE782C04FF77FB81FDA5C348 /* CreditCardValidator-umbrella.h */,
+				080B127FA5383BBDECE3D9B2ABE46607 /* CreditCardValidator.debug.xcconfig */,
+				4C4103AC623F7C3483174D6839898580 /* CreditCardValidator.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CreditCardValidator";
+			sourceTree = "<group>";
+		};
+		FEC5B5D8C819B13B476A065E1BBC58D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D797E9A5C5782CE845840781FA1CC81 /* Alamofire */,
+				9064B7FBCD1B9253FDF9ACB189B46D2B /* CPF-CNPJ-Validator */,
+				26572A92658F6FC1D02CAA1E46DC06A2 /* CreditCardValidator */,
+				1628B7AF9014C0E027A548C4B8055DCA /* Pods-IngressoViewCode */,
+				F413A0CD221CC2A8672F20081F9F5395 /* SwiftCurrency */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5DABE40D8284946A924A02B546257DE2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9146510540C8DAF109CC4BCCB0CA74A9 /* Alamofire-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		669E1FDA97D1018E22354EB96083DF1C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F52F871411B4BDD1962B7587740511E /* SwiftCurrency-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80EA7CDBF0EDB1A2AB319C2AF2DE9ED0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D143F831DE085F0E0B1D67EDDAD9F445 /* Pods-IngressoViewCode-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD91700E2B10DD58BA3EEE0F5BFCC136 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A16D918314A8CEC8AAE75AC283872FE0 /* CreditCardValidator-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA31EB65641D50427B333DB87B6E7D4F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8248F7E24D18CF36CA19A3E93CD8DAD2 /* CPF-CNPJ-Validator-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6BF4537D281B642FA0BE6D01C511544D /* CPF-CNPJ-Validator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B84A2496009CD335F0F0C0420734FAD8 /* Build configuration list for PBXNativeTarget "CPF-CNPJ-Validator" */;
+			buildPhases = (
+				DA31EB65641D50427B333DB87B6E7D4F /* Headers */,
+				0D7173DF11DCCFB65861E8FB7C609629 /* Sources */,
+				A9D00DF7969A790F3EAE89D6D36EE295 /* Frameworks */,
+				DD85F1D679DDBAA737C8DB08D2BEA286 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CPF-CNPJ-Validator";
+			productName = CPF_CNPJ_Validator;
+			productReference = 9064B7FBCD1B9253FDF9ACB189B46D2B /* CPF-CNPJ-Validator */;
+			productType = "com.apple.product-type.framework";
+		};
+		7DB0D359272C592968C8C33A6A32778E /* SwiftCurrency */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36497105A8DA7EBA2BA159FF1250C603 /* Build configuration list for PBXNativeTarget "SwiftCurrency" */;
+			buildPhases = (
+				669E1FDA97D1018E22354EB96083DF1C /* Headers */,
+				4FA77C13CE4497C646E6098375DD3F14 /* Sources */,
+				C958D1727FB3403844D415746A6D0471 /* Frameworks */,
+				729603B04B20D1250441D66E6A12688F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftCurrency;
+			productName = SwiftCurrency;
+			productReference = F413A0CD221CC2A8672F20081F9F5395 /* SwiftCurrency */;
+			productType = "com.apple.product-type.framework";
+		};
+		97D23EAE8EAAF9ECC1F682BBBFACC262 /* Pods-IngressoViewCode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 149499CC73575105923AC6AA10D5DBCC /* Build configuration list for PBXNativeTarget "Pods-IngressoViewCode" */;
+			buildPhases = (
+				80EA7CDBF0EDB1A2AB319C2AF2DE9ED0 /* Headers */,
+				83292234A603DB89B0376F3CED21EB66 /* Sources */,
+				7B6FE9B1AA5E011CC90FD2218C032A29 /* Frameworks */,
+				EB18B4A440E71871EEF49FEB6910FC2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7DFD4C407E2EDC5689F68BF4A6B9DB13 /* PBXTargetDependency */,
+				FD61D05A5586929DA917EB042E92517D /* PBXTargetDependency */,
+				142B79366FCAD3781A11239FE41BF983 /* PBXTargetDependency */,
+				D8B04823EC95F46A28A06E75E9560DA6 /* PBXTargetDependency */,
+			);
+			name = "Pods-IngressoViewCode";
+			productName = Pods_IngressoViewCode;
+			productReference = 1628B7AF9014C0E027A548C4B8055DCA /* Pods-IngressoViewCode */;
+			productType = "com.apple.product-type.framework";
+		};
+		A7ECDF71AF0A137721871DF219835B9B /* CreditCardValidator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 449CCD3536BBFE128790ACC1C7CA2DC7 /* Build configuration list for PBXNativeTarget "CreditCardValidator" */;
+			buildPhases = (
+				CD91700E2B10DD58BA3EEE0F5BFCC136 /* Headers */,
+				87D4B4D9282E9DB7E7F5DF7BE9BE20B2 /* Sources */,
+				B328B3FBF6E16C4B4335E753EE39CEC0 /* Frameworks */,
+				13BCA567562A45F4202884F187C95AF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CreditCardValidator;
+			productName = CreditCardValidator;
+			productReference = 26572A92658F6FC1D02CAA1E46DC06A2 /* CreditCardValidator */;
+			productType = "com.apple.product-type.framework";
+		};
+		EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 887CAE7F79D14F7AF2714DC8BABA9E38 /* Build configuration list for PBXNativeTarget "Alamofire" */;
+			buildPhases = (
+				5DABE40D8284946A924A02B546257DE2 /* Headers */,
+				91DE88C3249026C72068864CF85B8193 /* Sources */,
+				1FDEBC1279186C4DE344C5D2CCE81B3D /* Frameworks */,
+				C2B76647EA315A3658A600739CC6D453 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Alamofire;
+			productName = Alamofire;
+			productReference = 5D797E9A5C5782CE845840781FA1CC81 /* Alamofire */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = FEC5B5D8C819B13B476A065E1BBC58D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */,
+				6BF4537D281B642FA0BE6D01C511544D /* CPF-CNPJ-Validator */,
+				A7ECDF71AF0A137721871DF219835B9B /* CreditCardValidator */,
+				97D23EAE8EAAF9ECC1F682BBBFACC262 /* Pods-IngressoViewCode */,
+				7DB0D359272C592968C8C33A6A32778E /* SwiftCurrency */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13BCA567562A45F4202884F187C95AF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		729603B04B20D1250441D66E6A12688F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2B76647EA315A3658A600739CC6D453 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD85F1D679DDBAA737C8DB08D2BEA286 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB18B4A440E71871EEF49FEB6910FC2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D7173DF11DCCFB65861E8FB7C609629 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				899D203800E8456B0178536000EA9C54 /* CPF-CNPJ-Validator.swift in Sources */,
+				BB8DD7D2E4495A82A26726163729553A /* CPF-CNPJ-Validator-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FA77C13CE4497C646E6098375DD3F14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				169E09D842A728D47C5CC6615F46471A /* AnyCurrency.swift in Sources */,
+				DCAB43E1C9C49733CD1DAE6618E4F68C /* AnyCurrency+Algorithms.swift in Sources */,
+				51918F49D02E864E719ADE0864CAACF9 /* AnyCurrency+Sequence.swift in Sources */,
+				4EE7B9D5BB61C032F47150D9564A5069 /* CurrencyMetadata.swift in Sources */,
+				3E9464AA785AECB7AD4E7F527D20260F /* CurrencyMint.swift in Sources */,
+				3F00ACB415CBC76632509BE40C3EE17B /* CurrencyMint+ISOCurrencies.swift in Sources */,
+				4E171E9D14CE03CD2FAAD088E64DDF3C /* CurrencyProtocol.swift in Sources */,
+				945301A00DA795FA5B3406B742277F66 /* Decimal.swift in Sources */,
+				BD42F7844C9434C745F1DFF81EAF2B36 /* ISOCurrencies.swift in Sources */,
+				0072328DC1F6E9527DD89ED176FF08A4 /* SwiftCurrency-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83292234A603DB89B0376F3CED21EB66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C68362F6E7690DF24F30008067FBD593 /* Pods-IngressoViewCode-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87D4B4D9282E9DB7E7F5DF7BE9BE20B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11BAFB455869ABA6C32EEB2BA441304A /* CreditCardValidator.swift in Sources */,
+				F721520819C427899B2A817F88E6D58C /* CreditCardValidator-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91DE88C3249026C72068864CF85B8193 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90E42B43904F2F22CA3A8BBD0155D9A2 /* AFError.swift in Sources */,
+				70EA6F068498CEC1B273D6BB1E74EB4E /* Alamofire.swift in Sources */,
+				C27C72B2D755F3A7B2D97089CA75146F /* Alamofire-dummy.m in Sources */,
+				F93AEAF3659818E2308E0E5C70B66423 /* DispatchQueue+Alamofire.swift in Sources */,
+				6DF154F51210D4C446AA021F2DBA34A4 /* MultipartFormData.swift in Sources */,
+				5CECD168465CF59B489253695D3FB51F /* NetworkReachabilityManager.swift in Sources */,
+				537D7452E6C8C82D9C1908EA29706E35 /* Notifications.swift in Sources */,
+				F5C92DC8E274C4FC541267A97575BC05 /* ParameterEncoding.swift in Sources */,
+				D593E5BEB4221FF272DBF69E51945319 /* Request.swift in Sources */,
+				9BCBBFE03318F5DD172F9E1F3100F67B /* Response.swift in Sources */,
+				43C3C17BFDFD71F45C5A7AFB0C0BEF45 /* ResponseSerialization.swift in Sources */,
+				D46CB5AF7BE345C5D27ABF9DCF692881 /* Result.swift in Sources */,
+				3DE8AA12C52787A0BA570717BB27AAB0 /* ServerTrustPolicy.swift in Sources */,
+				85379CCF081FC9C36F082E71D2DF4D2F /* SessionDelegate.swift in Sources */,
+				8023EECE8437F0311A065A9C2F420E2E /* SessionManager.swift in Sources */,
+				119B37D7E7D3A59C6685FC0EFEE881CE /* TaskDelegate.swift in Sources */,
+				2119BBBDD76C9B182007C9E8D3BD8DDA /* Timeline.swift in Sources */,
+				4C301CCA81AAFB4453B6B827F846E0AC /* Validation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		142B79366FCAD3781A11239FE41BF983 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CreditCardValidator;
+			target = A7ECDF71AF0A137721871DF219835B9B /* CreditCardValidator */;
+			targetProxy = F7465ED09E7B0C3C04A7F71EA04D551F /* PBXContainerItemProxy */;
+		};
+		7DFD4C407E2EDC5689F68BF4A6B9DB13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
+			targetProxy = 39C97E77D1EEB69017A0941DB688517E /* PBXContainerItemProxy */;
+		};
+		D8B04823EC95F46A28A06E75E9560DA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftCurrency;
+			target = 7DB0D359272C592968C8C33A6A32778E /* SwiftCurrency */;
+			targetProxy = C6016231D02F5D9894FAED0D091519C7 /* PBXContainerItemProxy */;
+		};
+		FD61D05A5586929DA917EB042E92517D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "CPF-CNPJ-Validator";
+			target = 6BF4537D281B642FA0BE6D01C511544D /* CPF-CNPJ-Validator */;
+			targetProxy = 9A56A92086FD9C5EF44A4A985C91F091 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		30E0B9EFD9A5C45D0D351231E81B30B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		56597C46B8675D9C4E5A01F002CD48FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 478225EF1FDF597F6F874ECDA218B072 /* CPF-CNPJ-Validator.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CPF-CNPJ-Validator/CPF-CNPJ-Validator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CPF-CNPJ-Validator/CPF-CNPJ-Validator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CPF-CNPJ-Validator/CPF-CNPJ-Validator.modulemap";
+				PRODUCT_MODULE_NAME = CPF_CNPJ_Validator;
+				PRODUCT_NAME = CPF_CNPJ_Validator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		68B1AE02C35B3BF9B0A358B7D7F26055 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AEDE18147BF874140AF75C98CFE777F /* Alamofire.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Alamofire-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				PRODUCT_MODULE_NAME = Alamofire;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6C8D0DB57F626240E3501744C2EEC066 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C4103AC623F7C3483174D6839898580 /* CreditCardValidator.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CreditCardValidator/CreditCardValidator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CreditCardValidator/CreditCardValidator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CreditCardValidator/CreditCardValidator.modulemap";
+				PRODUCT_MODULE_NAME = CreditCardValidator;
+				PRODUCT_NAME = CreditCardValidator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		883C5F45094A22D3757230C0E6E3D0CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7316D3EF6A159159CBEE4C5D1367C794 /* SwiftCurrency.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftCurrency/SwiftCurrency-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftCurrency/SwiftCurrency-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftCurrency/SwiftCurrency.modulemap";
+				PRODUCT_MODULE_NAME = SwiftCurrency;
+				PRODUCT_NAME = SwiftCurrency;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		90149A2E85FE422F8B1D31C8E4D00780 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDFDD629FB6F7D40516DD8D6E65F5318 /* Pods-IngressoViewCode.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-IngressoViewCode/Pods-IngressoViewCode-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-IngressoViewCode/Pods-IngressoViewCode.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		987B56B707CF11DD8DB5E8F363B0D864 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 326AF8013D08647537F46E3BEE8503BF /* CPF-CNPJ-Validator.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CPF-CNPJ-Validator/CPF-CNPJ-Validator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CPF-CNPJ-Validator/CPF-CNPJ-Validator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CPF-CNPJ-Validator/CPF-CNPJ-Validator.modulemap";
+				PRODUCT_MODULE_NAME = CPF_CNPJ_Validator;
+				PRODUCT_NAME = CPF_CNPJ_Validator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BEBCC2F6150402500B09CBA77A2DE89F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 202EC3C7DA6C527953E8DB3B4887D734 /* SwiftCurrency.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftCurrency/SwiftCurrency-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftCurrency/SwiftCurrency-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftCurrency/SwiftCurrency.modulemap";
+				PRODUCT_MODULE_NAME = SwiftCurrency;
+				PRODUCT_NAME = SwiftCurrency;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C79127F6C5A80BDC7174E654A9C3BD94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 080B127FA5383BBDECE3D9B2ABE46607 /* CreditCardValidator.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CreditCardValidator/CreditCardValidator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CreditCardValidator/CreditCardValidator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CreditCardValidator/CreditCardValidator.modulemap";
+				PRODUCT_MODULE_NAME = CreditCardValidator;
+				PRODUCT_NAME = CreditCardValidator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA22C334E2940B21EB576035F44AD294 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCCDF263FC7BB214C31F51B0C4A940EB /* Alamofire.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Alamofire-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				PRODUCT_MODULE_NAME = Alamofire;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F35407A26A2F2EF15F9FE04469FF498E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37E405B13309DCAB4F9472D20878EF6E /* Pods-IngressoViewCode.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-IngressoViewCode/Pods-IngressoViewCode-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-IngressoViewCode/Pods-IngressoViewCode.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F4FF6A0D1970CA9705974E3CB2134802 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		149499CC73575105923AC6AA10D5DBCC /* Build configuration list for PBXNativeTarget "Pods-IngressoViewCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F35407A26A2F2EF15F9FE04469FF498E /* Debug */,
+				90149A2E85FE422F8B1D31C8E4D00780 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36497105A8DA7EBA2BA159FF1250C603 /* Build configuration list for PBXNativeTarget "SwiftCurrency" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEBCC2F6150402500B09CBA77A2DE89F /* Debug */,
+				883C5F45094A22D3757230C0E6E3D0CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		449CCD3536BBFE128790ACC1C7CA2DC7 /* Build configuration list for PBXNativeTarget "CreditCardValidator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C79127F6C5A80BDC7174E654A9C3BD94 /* Debug */,
+				6C8D0DB57F626240E3501744C2EEC066 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4FF6A0D1970CA9705974E3CB2134802 /* Debug */,
+				30E0B9EFD9A5C45D0D351231E81B30B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		887CAE7F79D14F7AF2714DC8BABA9E38 /* Build configuration list for PBXNativeTarget "Alamofire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA22C334E2940B21EB576035F44AD294 /* Debug */,
+				68B1AE02C35B3BF9B0A358B7D7F26055 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B84A2496009CD335F0F0C0420734FAD8 /* Build configuration list for PBXNativeTarget "CPF-CNPJ-Validator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56597C46B8675D9C4E5A01F002CD48FB /* Debug */,
+				987B56B707CF11DD8DB5E8F363B0D864 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

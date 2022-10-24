@@ -9,11 +9,12 @@ import Foundation
 import UIKit
 
 class UserDataView: UIView {
+    
     private lazy var diceLabel: UILabel = {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
         label.text = "1. Suas Informações"
-        label.font = UIFont(name: "Arial Negrito", size: 17)
+        label.font = .boldSystemFont(ofSize: 17)
         label.textColor = UIColor(red: 57/255, green: 62/255, blue: 70/255, alpha: 1)
         return label
     }()
@@ -35,13 +36,15 @@ class UserDataView: UIView {
     private lazy var fullNameLabel: UILabel = {
         let label = UILabel()
         label.text = "Nome Completo"
-        label.font = UIFont(name: "Avenir Heavy", size: 14)
+        label.font = UIFont(name: "Avenir Heavy", size: 15)
         label.textColor = UIColor(red: 57/255, green: 62/255, blue: 70/255, alpha: 1)
         return label
     }()
     
-    private lazy var nameTextField: UITextField = {
+    private(set) lazy var nameTextField: UITextField = {
         let textField = UITextField()
+        textField.backgroundColor = .white
+        textField.addConstraint(textField.heightAnchor.constraint(equalToConstant: 30))
         textField.layer.borderWidth = 1
         textField.layer.cornerRadius = 4
         return textField
@@ -50,13 +53,15 @@ class UserDataView: UIView {
     private lazy var eMailLabel: UILabel = {
         let label = UILabel()
         label.text = "E-mail"
-        label.font = UIFont(name: "Avenir Heavy", size: 14)
+        label.font = UIFont(name: "Avenir Heavy", size: 15)
         label.textColor = UIColor(red: 57/255, green: 62/255, blue: 70/255, alpha: 1)
         return label
     }()
     
-    private lazy var eMailTextField: UITextField = {
+    private(set) lazy var eMailTextField: UITextField = {
         let textField = UITextField()
+        textField.backgroundColor = .white
+        textField.addConstraint(textField.heightAnchor.constraint(equalToConstant: 30))
         textField.layer.borderWidth = 1
         textField.layer.cornerRadius = 4
         return textField
@@ -65,13 +70,15 @@ class UserDataView: UIView {
     private lazy var cpfLabel: UILabel = {
         let label = UILabel()
         label.text = "CPF"
-        label.font = UIFont(name: "Avenir Heavy", size: 14)
+        label.font = UIFont(name: "Avenir Heavy", size: 15)
         label.textColor = UIColor(red: 57/255, green: 62/255, blue: 70/255, alpha: 1)
         return label
     }()
     
-    private lazy var cpfTextField: UITextField = {
+    private(set) lazy var cpfTextField: UITextField = {
         let textField = UITextField()
+        textField.backgroundColor = .white
+        textField.addConstraint(textField.heightAnchor.constraint(equalToConstant: 30))
         textField.layer.borderWidth = 1
         textField.layer.cornerRadius = 4
        return textField
@@ -80,28 +87,33 @@ class UserDataView: UIView {
     private lazy var cepLabel: UILabel = {
         let label = UILabel()
         label.text = "CEP"
-        label.font = UIFont(name: "Avenir Heavy", size: 14)
+        label.font = UIFont(name: "Avenir Heavy", size: 15)
         label.textColor = UIColor(red: 57/255, green: 62/255, blue: 70/255, alpha: 1)
        return label
     }()
     
-    private lazy var cepTextField: UITextField = {
+    private(set) lazy var cepTextField: UITextField = {
         let textField = UITextField()
+        textField.backgroundColor = .white
+        textField.addConstraint(textField.heightAnchor.constraint(equalToConstant: 30))
         textField.layer.borderWidth = 1
         textField.layer.cornerRadius = 4
+
        return textField
     }()
     
     private lazy var districtLabel: UILabel = {
         let label = UILabel()
         label.text = "Bairro"
-        label.font = UIFont(name: "Avenir Heavy", size: 14)
+        label.font = UIFont(name: "Avenir Heavy", size: 15)
         label.textColor = UIColor(red: 57/255, green: 62/255, blue: 70/255, alpha: 1)
         return label
     }()
     
-    private lazy var districtTextField: UITextField = {
+    private(set) lazy var districtTextField: UITextField = {
         let textField = UITextField()
+        textField.backgroundColor = .white
+        textField.addConstraint(textField.heightAnchor.constraint(equalToConstant: 30))
         textField.layer.borderWidth = 1
         textField.layer.cornerRadius = 4
        return textField
@@ -110,13 +122,15 @@ class UserDataView: UIView {
     private lazy var addLabel: UILabel = {
         let label = UILabel()
         label.text = "Endereço"
-        label.font = UIFont(name: "Avenir Heavy", size: 14)
+        label.font = UIFont(name: "Avenir Heavy", size: 15)
         label.textColor = UIColor(red: 57/255, green: 62/255, blue: 70/255, alpha: 1)
         return label
     }()
     
-    private lazy var addTextField: UITextField = {
+    private(set) lazy var addTextField: UITextField = {
         let textField = UITextField()
+        textField.backgroundColor = .white
+        textField.addConstraint(textField.heightAnchor.constraint(equalToConstant: 30))
         textField.layer.borderWidth = 1
         textField.layer.cornerRadius = 4
        return textField
@@ -126,7 +140,6 @@ class UserDataView: UIView {
         super.init(frame: frame)
         addSubview()
         setConstraint()
-        
     }
     
     required init?(coder: NSCoder) {
@@ -163,7 +176,7 @@ class UserDataView: UIView {
             divider2View.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 16),
             divider2View.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -16),
             
-            userDataStackView.topAnchor.constraint(equalTo: divider2View.bottomAnchor),
+            userDataStackView.topAnchor.constraint(equalTo: divider2View.bottomAnchor, constant: 5),
             userDataStackView.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 16),
             userDataStackView.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -16),
             userDataStackView.bottomAnchor.constraint(equalTo: bottomAnchor)

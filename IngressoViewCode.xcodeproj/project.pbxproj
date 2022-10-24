@@ -7,23 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B3D12C429017BC9001B5EC3 /* UserDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3D12C329017BC9001B5EC3 /* UserDataView.swift */; };
+		7B3D12C62901847B001B5EC3 /* CardDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3D12C52901847B001B5EC3 /* CardDataView.swift */; };
+		7B3D12C8290195C0001B5EC3 /* HeaderDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3D12C7290195C0001B5EC3 /* HeaderDataView.swift */; };
+		7B3D12CB2901BE33001B5EC3 /* DescriptionDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3D12CA2901BE33001B5EC3 /* DescriptionDataView.swift */; };
+		7B3D12CD2901EB9A001B5EC3 /* ConfirmationDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3D12CC2901EB9A001B5EC3 /* ConfirmationDataView.swift */; };
+		7B4EBBA42903195100658DCF /* ValidaFormulario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4EBBA32903195100658DCF /* ValidaFormulario.swift */; };
+		7B4EBBA7290325BC00658DCF /* PickerViewMes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4EBBA6290325BC00658DCF /* PickerViewMes.swift */; };
+		7B4EBBA9290327BA00658DCF /* PickerViewAno.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4EBBA8290327BA00658DCF /* PickerViewAno.swift */; };
+		7B4EBBAB29032AC500658DCF /* PickerViewParcela.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4EBBAA29032AC500658DCF /* PickerViewParcela.swift */; };
 		7B7F9BBC29003B4B00FD6A97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7F9BBB29003B4B00FD6A97 /* AppDelegate.swift */; };
-		7B7F9BBE29003B4B00FD6A97 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7F9BBD29003B4B00FD6A97 /* SceneDelegate.swift */; };
 		7B7F9BC029003B4B00FD6A97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7F9BBF29003B4B00FD6A97 /* ViewController.swift */; };
-		7B7F9BC329003B4B00FD6A97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B7F9BC129003B4B00FD6A97 /* Main.storyboard */; };
 		7B7F9BC529003B4B00FD6A97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B7F9BC429003B4B00FD6A97 /* Assets.xcassets */; };
 		7B7F9BC829003B4B00FD6A97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B7F9BC629003B4B00FD6A97 /* LaunchScreen.storyboard */; };
+		7BE939862906D0A70036F2F9 /* Localizacao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE939852906D0A70036F2F9 /* Localizacao.swift */; };
+		7BE939882906D1400036F2F9 /* LocalizacaoConsultaAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE939872906D1400036F2F9 /* LocalizacaoConsultaAPI.swift */; };
+		B3844C55FA431392B5EE634A /* Pods_IngressoViewCode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 340D32B35D18A00C48A2C72E /* Pods_IngressoViewCode.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C8B26E16F9288E5341229CF /* Pods-IngressoViewCode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IngressoViewCode.release.xcconfig"; path = "Target Support Files/Pods-IngressoViewCode/Pods-IngressoViewCode.release.xcconfig"; sourceTree = "<group>"; };
+		340D32B35D18A00C48A2C72E /* Pods_IngressoViewCode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IngressoViewCode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A4EAE6CACF5B821F0E7F44C /* Pods-IngressoViewCode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IngressoViewCode.debug.xcconfig"; path = "Target Support Files/Pods-IngressoViewCode/Pods-IngressoViewCode.debug.xcconfig"; sourceTree = "<group>"; };
+		7B3D12C329017BC9001B5EC3 /* UserDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataView.swift; sourceTree = "<group>"; };
+		7B3D12C52901847B001B5EC3 /* CardDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDataView.swift; sourceTree = "<group>"; };
+		7B3D12C7290195C0001B5EC3 /* HeaderDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderDataView.swift; sourceTree = "<group>"; };
+		7B3D12CA2901BE33001B5EC3 /* DescriptionDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionDataView.swift; sourceTree = "<group>"; };
+		7B3D12CC2901EB9A001B5EC3 /* ConfirmationDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationDataView.swift; sourceTree = "<group>"; };
+		7B4EBBA32903195100658DCF /* ValidaFormulario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidaFormulario.swift; sourceTree = "<group>"; };
+		7B4EBBA6290325BC00658DCF /* PickerViewMes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewMes.swift; sourceTree = "<group>"; };
+		7B4EBBA8290327BA00658DCF /* PickerViewAno.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewAno.swift; sourceTree = "<group>"; };
+		7B4EBBAA29032AC500658DCF /* PickerViewParcela.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewParcela.swift; sourceTree = "<group>"; };
 		7B7F9BB829003B4B00FD6A97 /* IngressoViewCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IngressoViewCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B7F9BBB29003B4B00FD6A97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7B7F9BBD29003B4B00FD6A97 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		7B7F9BBF29003B4B00FD6A97 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7B7F9BC229003B4B00FD6A97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7B7F9BC429003B4B00FD6A97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7B7F9BC729003B4B00FD6A97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7B7F9BC929003B4B00FD6A97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BE939852906D0A70036F2F9 /* Localizacao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localizacao.swift; sourceTree = "<group>"; };
+		7BE939872906D1400036F2F9 /* LocalizacaoConsultaAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizacaoConsultaAPI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +53,60 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3844C55FA431392B5EE634A /* Pods_IngressoViewCode.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		195B7BBCB734FBFC4945269A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				340D32B35D18A00C48A2C72E /* Pods_IngressoViewCode.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7B3D12C9290195C7001B5EC3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7B3D12C7290195C0001B5EC3 /* HeaderDataView.swift */,
+				7B3D12CA2901BE33001B5EC3 /* DescriptionDataView.swift */,
+				7B3D12C329017BC9001B5EC3 /* UserDataView.swift */,
+				7B3D12C52901847B001B5EC3 /* CardDataView.swift */,
+				7B3D12CC2901EB9A001B5EC3 /* ConfirmationDataView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7B4EBBA22903193F00658DCF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7B4EBBA32903195100658DCF /* ValidaFormulario.swift */,
+				7BE939852906D0A70036F2F9 /* Localizacao.swift */,
+				7BE939872906D1400036F2F9 /* LocalizacaoConsultaAPI.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7B4EBBA52903259200658DCF /* Componentes */ = {
+			isa = PBXGroup;
+			children = (
+				7B4EBBA6290325BC00658DCF /* PickerViewMes.swift */,
+				7B4EBBA8290327BA00658DCF /* PickerViewAno.swift */,
+				7B4EBBAA29032AC500658DCF /* PickerViewParcela.swift */,
+			);
+			path = Componentes;
+			sourceTree = "<group>";
+		};
 		7B7F9BAF29003B4B00FD6A97 = {
 			isa = PBXGroup;
 			children = (
 				7B7F9BBA29003B4B00FD6A97 /* IngressoViewCode */,
 				7B7F9BB929003B4B00FD6A97 /* Products */,
+				B3AB0CE02C5755CBF08BD2A2 /* Pods */,
+				195B7BBCB734FBFC4945269A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +121,25 @@
 		7B7F9BBA29003B4B00FD6A97 /* IngressoViewCode */ = {
 			isa = PBXGroup;
 			children = (
-				7B7F9BBB29003B4B00FD6A97 /* AppDelegate.swift */,
-				7B7F9BBD29003B4B00FD6A97 /* SceneDelegate.swift */,
+				7B4EBBA22903193F00658DCF /* Model */,
+				7B4EBBA52903259200658DCF /* Componentes */,
 				7B7F9BBF29003B4B00FD6A97 /* ViewController.swift */,
-				7B7F9BC129003B4B00FD6A97 /* Main.storyboard */,
+				7B3D12C9290195C7001B5EC3 /* View */,
+				7B7F9BBB29003B4B00FD6A97 /* AppDelegate.swift */,
 				7B7F9BC429003B4B00FD6A97 /* Assets.xcassets */,
 				7B7F9BC629003B4B00FD6A97 /* LaunchScreen.storyboard */,
 				7B7F9BC929003B4B00FD6A97 /* Info.plist */,
 			);
 			path = IngressoViewCode;
+			sourceTree = "<group>";
+		};
+		B3AB0CE02C5755CBF08BD2A2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5A4EAE6CACF5B821F0E7F44C /* Pods-IngressoViewCode.debug.xcconfig */,
+				2C8B26E16F9288E5341229CF /* Pods-IngressoViewCode.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +149,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7B7F9BCC29003B4B00FD6A97 /* Build configuration list for PBXNativeTarget "IngressoViewCode" */;
 			buildPhases = (
+				28B39E9FB56F6678EEA187BF /* [CP] Check Pods Manifest.lock */,
 				7B7F9BB429003B4B00FD6A97 /* Sources */,
 				7B7F9BB529003B4B00FD6A97 /* Frameworks */,
 				7B7F9BB629003B4B00FD6A97 /* Resources */,
+				50DBB23D3D93DE39A5CC541C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,34 +204,77 @@
 			files = (
 				7B7F9BC829003B4B00FD6A97 /* LaunchScreen.storyboard in Resources */,
 				7B7F9BC529003B4B00FD6A97 /* Assets.xcassets in Resources */,
-				7B7F9BC329003B4B00FD6A97 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		28B39E9FB56F6678EEA187BF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IngressoViewCode-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		50DBB23D3D93DE39A5CC541C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IngressoViewCode/Pods-IngressoViewCode-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IngressoViewCode/Pods-IngressoViewCode-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IngressoViewCode/Pods-IngressoViewCode-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7B7F9BB429003B4B00FD6A97 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B4EBBA7290325BC00658DCF /* PickerViewMes.swift in Sources */,
 				7B7F9BC029003B4B00FD6A97 /* ViewController.swift in Sources */,
+				7BE939862906D0A70036F2F9 /* Localizacao.swift in Sources */,
+				7B4EBBAB29032AC500658DCF /* PickerViewParcela.swift in Sources */,
 				7B7F9BBC29003B4B00FD6A97 /* AppDelegate.swift in Sources */,
-				7B7F9BBE29003B4B00FD6A97 /* SceneDelegate.swift in Sources */,
+				7B4EBBA42903195100658DCF /* ValidaFormulario.swift in Sources */,
+				7B3D12CB2901BE33001B5EC3 /* DescriptionDataView.swift in Sources */,
+				7B3D12CD2901EB9A001B5EC3 /* ConfirmationDataView.swift in Sources */,
+				7B3D12C62901847B001B5EC3 /* CardDataView.swift in Sources */,
+				7B3D12C429017BC9001B5EC3 /* UserDataView.swift in Sources */,
+				7B3D12C8290195C0001B5EC3 /* HeaderDataView.swift in Sources */,
+				7BE939882906D1400036F2F9 /* LocalizacaoConsultaAPI.swift in Sources */,
+				7B4EBBA9290327BA00658DCF /* PickerViewAno.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		7B7F9BC129003B4B00FD6A97 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7B7F9BC229003B4B00FD6A97 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7B7F9BC629003B4B00FD6A97 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,6 +402,7 @@
 		};
 		7B7F9BCD29003B4B00FD6A97 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A4EAE6CACF5B821F0E7F44C /* Pods-IngressoViewCode.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -292,7 +413,6 @@
 				INFOPLIST_FILE = IngressoViewCode/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -310,6 +430,7 @@
 		};
 		7B7F9BCE29003B4B00FD6A97 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C8B26E16F9288E5341229CF /* Pods-IngressoViewCode.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -320,7 +441,6 @@
 				INFOPLIST_FILE = IngressoViewCode/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
